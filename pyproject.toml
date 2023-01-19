@@ -21,10 +21,11 @@ classifiers = [
 ]
 requires-python = ">=3.7"
 dependencies = [
-    "requests"
-    "pandas"
-    "numpy"
-    "pvlib"
+    "requests",
+    "pandas",
+    "numpy",
+    "pvlib >= 0.9.4",
+    "scipy",
 ]
 
 [project.urls]
